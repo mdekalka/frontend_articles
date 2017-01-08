@@ -1,0 +1,36 @@
+{
+    "javascript": {
+        "thirdparty": [
+            "client/js/thirdparty/prism.js"
+],
+        "client": [
+            "client/js/client/app.js",
+            "client/js/client/constants/constantsService.js",
+            "client/js/client/components/homeComponent.js",
+            "client/js/client/controllers/mainController.js",
+            "client/js/client/directives/prismDirective.js",
+            "client/js/client/examples/angular/passing_data_from_parent_to_child/component.js",
+            "client/js/client/examples/angular/directives_vs_components/component.js",
+            "client/js/client/examples/angular/component_tree/component.js",
+            "client/js/client/examples/angular/lifecycle_hooks/component.js",
+            "client/js/client/examples/angular/migrate_to_angular_16/component.js",
+            "client/js/client/examples/angular/onchanges_hook/component.js",
+            "client/js/client/examples/angular/basic_authentication/component.js",
+            "client/js/client/examples/redux/app_structure/component.js",
+            "client/js/client/examples/redux/three_principles/component.js",
+            "client/js/client/examples/redux/todo_list/component.js",
+            "client/js/client/examples/react/communication_between_components/component.js",
+            "client/js/client/examples/react/component_lifecycle/component.js",
+            "client/js/client/examples/react/conditional_statement/component.js",
+            "client/js/client/examples/react/container_components/component.js",
+            "client/js/client/examples/react/context/component.js"
+        ]
+    },
+    "html": {
+        "templates": "client/templates/**/*.html",
+        "views": "client/views/**/*.html"
+    },
+    "css": [
+        "client/styles/main.dev.css"
+    ]
+}

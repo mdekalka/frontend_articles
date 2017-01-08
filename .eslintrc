@@ -1,0 +1,46 @@
+{
+    'extends': 'eslint:recommended',
+    'rules': {
+        // errors
+        'no-alert': 2,
+        'strict': [2, 'function'],
+        'no-native-reassign': 2,
+        'no-return-assign': 2,
+        'no-sequences': 2,
+        'no-unused-expressions': 2,
+        'no-with': 2,
+        'camelcase': 2,
+        'curly': [2, 'all'],
+        'no-extra-parens': [2, 'functions'],
+        'eqeqeq': 2,
+        // warnings
+        'no-console': 1,
+        'no-unused-vars': 1,
+        'quotes': [1, 'single'],
+        'semi': 1,
+        'semi-spacing': [1, { 'before': false, 'after': true }],
+        'no-multi-spaces': 1,
+        'no-multi-str': 1,
+        'no-spaced-func': 1,
+        'comma-spacing': 1,
+        'consistent-return': 1,
+        'dot-notation': [1, { 'allowKeywords': true }],
+        'key-spacing': [1, { 'beforeColon': false, 'afterColon': true }],
+        'space-infix-ops': 1,
+        'space-unary-ops': [1, { 'words': true, 'nonwords': false }]
+    },
+    'globals': {
+        'angular': true,
+        'window': true,
+        'document': true,
+		'$': true,
+        'Prism': true,
+        'google': true,
+        'Immutable': true,
+        '_': true
+    },
+    'env': {
+        'es6': true,
+        'node': true
+    }
+}

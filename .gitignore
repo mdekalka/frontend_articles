@@ -1,0 +1,40 @@
+#modules and build files
+node_modules/
+build/
+
+#client files
+client/styles/maps/
+client/localization/locale/
+client/js/client/appTemplates.js
+
+.vs/
+*.suo
+build/
+/client/js/client/constants/environment.js
+/client/js/client/constants/*.environment.js
+
+#deployment files
+*.log
+*.wixobj
+*.mci
+/deployment/install/web/PackageCreationAutomatedScript_trpi-web/results.txt
+/deployment/install/web/PackageCreationAutomatedScript_trpi-web/log.txt
+deployment/repackaging/TrcWebClientSetup_*.msi
+deployment/repackaging/TrcWebClientSetup_*.wixpdb
+deployment/repackaging/TrcWebClientWebContent.wxs
+deployment/install/input/
+deployment/install/output/
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/configuration/~temp/RTD_*_install_*.spd
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/configuration/~temp/RTD_TRPI-*_install_*.spb
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/configuration/~temp/RTD_TRPI-*_install_*.tar.Z
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/configuration/~temp/RTD_TRPI-*_install_*.xml
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/configuration/~temp/rtd-trpi-*/rtd-trpi-*.zip
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/configuration/~temp/rtd-trpi-*/rtd-trpi-*.zip
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/output/SPT/rtd-trpi-*.zip
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/output/TARZ/RTD_TRPI-*_install_*.tar.Z
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/output/TPM/RTD_TRPI-*_install_*.spb
+deployment/install/web/PackageCreationAutomatedScript_trpi-web/configuration/templates/sptTemplates/SptPackageTemplate/environment_*/app.min.js
+.vscode/
+
+TRP.Eikon.App/TRP.Eikon.App/bin/
+TRP.Eikon.App/TRP.Eikon.App/obj/

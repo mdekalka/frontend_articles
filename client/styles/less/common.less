@@ -1,0 +1,97 @@
+.back-link {
+    transition: color .2s ease;
+    &:hover {
+        color: #85929E;
+    }
+}
+
+.input-text {
+    background: #121215;
+    border: 1px solid transparent;
+    color: #D6DBDF;
+    padding: 7px 8px;
+
+    &:focus {
+        border: 1px solid #89b025;
+    }
+}
+.btn {
+    margin: 10px 0;
+    display: inline-block;
+    padding: 8px 25px;
+    background: #121215;
+    color: #D6DBDF;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    &:disabled {
+        background: #181818;
+        cursor: not-allowed;
+
+        &:hover {
+            background: #181818;
+            color: #D6DBDF;
+        }
+    }
+
+    &:hover {
+        background: #89b025;
+        color: #121215;
+    }
+}
+
+.link {
+    cursor: pointer;
+    color: #D6DBDF;
+
+    &:hover {
+        color: #85929E;
+    }
+}
+
+.home-component {
+
+    .home-header {
+        padding: 25px 0;
+        font-size: 24px;
+        font-weight: 300;
+        color: #89b025;
+        text-align: center;
+    }
+}
+
+.home-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+
+    .home-table-head {
+        color: #89b025;
+    }
+
+    .home-table-head,
+    .home-table-cell {
+        padding: 10px;
+        border: 1px solid #000;
+        min-width: 100px;
+
+        &.angular {
+            color: #de3641;
+        }
+        &.angular2 {
+            color: #b13138;
+        }
+
+        &.react {
+            color: #61dafb;
+        }
+
+        &.redux {
+            color: #7649bb;
+        }
+    }
+
+    .tags {
+        color: #989899;
+    }
+}
